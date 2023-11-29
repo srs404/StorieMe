@@ -1,0 +1,39 @@
+body {
+    background-image: url("../Images/login_background.jpg");
+}
+
+.login {
+    background-color:aliceblue;
+    border: 1px solid;
+    padding: 50px;
+    box-shadow: 5px 10px;
+    /* visibility: hidden; */
+    position: absolute;
+    border-radius: 10px;
+    opacity: 95%;
+    width: 505px;
+    margin-left: 150px;
+    margin-top: 90px;
+}
+
+.login input {
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px;
+    opacity: 80%;
+}
+
+#loginBtn {
+    opacity: 100%;
+}
+
+#loginBtn:hover {
+    background-color: white;
+    cursor: pointer;
+    opacity: 100%;
+}
+
+.login input:focus {
+    opacity: 100%;
+}
+
